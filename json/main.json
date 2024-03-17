@@ -1,0 +1,70 @@
+{
+    "slider": [
+        {
+            "src": "photos/about/gallery/1.jpg",
+            "text": "Комфортное проживание"
+        },
+        {
+            "src": "photos/services/cafe_brigantina/main.jpg",
+            "text": "Отдых большой компанией"
+        },
+        {
+            "src": "photos/services/beach/gallery/8.jpg",
+            "text": "Развлечения на любой вкус"
+        }
+    ],
+    "preview":[
+        {
+            "living": {
+                "title": "Проживание",
+                "items": [
+                    {"type":"home","title":"Домики", "img":"photos/main/block_preview/living/home.jpg"},
+                    {"type":"azbar","title":"Азбары", "img":"photos/main/block_preview/living/azbar.jpg"},
+                    {"type":"yurt","title":"Юрты", "img":"photos/main/block_preview/living/yurt.jpg"},
+                    {"type":"railway","title":"Вагончики", "img":"photos/main/block_preview/living/railcar.jpg"},
+                    {"type":"camping","title":"Кемпинг", "img":"photos/main/block_preview/living/camping.jpg"}
+                ]
+            },
+            "services": {
+                "title": "Аренда помещений",
+                "items": [
+                    {"type":"bath","title":"Баня", "img":"photos/main/block_preview/services/bathhouse.jpg"},
+                    {"type":"veranda","title":"Веранды", "img":"photos/main/block_preview/services/verands.jpg"},
+                    {"type":"bower","title":"Беседки", "img":"photos/main/block_preview/services/pavilion.jpg"},
+                    {"type":"cafe","title":"Кафе \"Бригантина\"", "img":"photos/main/block_preview/services/brigantina.jpg"},
+                    {"type":"cafe","title":"Летнее кафе \"Берег\"", "img":"photos/main/block_preview/services/coast.jpg"},
+                    {"type":"hall","title":"Банкетный зал с террасой", "img":""},
+                    {"type":"terrace","title":"Летняя терраса с крышей", "img":""}
+                ]
+            },
+            "additional": {
+                "title": "Дополнительные возможности",
+                "items": [
+                    {"type":"boat","title":"Лодки и катамараны", "img":"photos/main/block_preview/additional/boat.jpg"},
+                    {"type":"rod","title":"Удочки для рыбалки", "img":"photos/main/block_preview/additional/fishing_rod.jpg"},
+                    {"type":"sports","title":"Спортивный инвентарь", "img":"photos/main/block_preview/additional/sports_equipment.jpeg"}
+                ]
+            }
+        }
+    ],
+    "icons":[
+        {"img":"photos/main/icons/1.png", "caption":"Доступные и комфортные номера"},
+        {"img":"photos/main/icons/2.png", "caption":"Территория базы охраняется"},
+        {"img":"photos/main/icons/3.png", "caption":"Бесплатный вход на территорию базы"},
+        {"img":"photos/main/icons/4.png", "caption":"Вежливый персонал и обслуживание"}
+    ],
+    "gallery":[
+        "photos/main/gallery/1.jpg",
+        "photos/main/gallery/2.jpg",
+        "photos/main/gallery/3.jpg",
+        "photos/main/gallery/4.jpg",
+        "photos/main/gallery/5.jpg",
+        "photos/main/gallery/6.jpg",
+        "photos/main/gallery/7.jpg",
+        "photos/main/gallery/8.jpg"
+    ],
+    "about":{
+        "caption":"База отдыха «Белая гора» – это территория где можно забыть о внешнем мире и полностью посвятить время своей семье и друзьям. Проводите свой отпуск так, как привыкли или испытайте совершенно новые впечатления, устройте незабываемые приключения!",
+        "img":"photos/main/about/1.jpg"
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "preview":[
+    {
+      "living": {
+        "title": "Проживание",
+        "items": [
+          {"type":"home", "title":"Домики", "img":"photos/main/block_preview/living/home.jpg"},
+          {"type":"azbar", "title":"Азбары", "img":"photos/main/block_preview/living/azbar.jpg"},
+          {"type":"yurt", "title":"Юрты", "img":"photos/main/block_preview/living/yurt.jpg"},
+          {"type":"railway", "title":"Вагончики", "img":"photos/main/block_preview/living/railcar.jpg"},
+          {"type":"camping", "title":"Кемпинг", "img":"photos/main/block_preview/living/camping.jpg"}
+        ]
+      },
+      "services": {
+        "title": "Аренда помещений",
+        "items": [
+          {"type":"bath","title":"Баня", "img":"photos/main/block_preview/services/bathhouse.jpg"},
+          {"type":"veranda","title":"Веранды", "img":"photos/main/block_preview/services/verands.jpg"},
+          {"type":"bower","title":"Беседки", "img":"photos/main/block_preview/services/pavilion.jpg"},
+          {"type":"cafe", "title":"Кафе", "img":"photos/main/block_preview/services/brigantina.jpg"},
+          {"type":"hall","title":"Банкетный зал с террасой", "img":""},
+          {"type":"terrace","title":"Летняя терраса с крышей", "img":""}
+        ]
+      },
+      "additional": {
+        "title": "Дополнительные возможности",
+        "items": [
+          {"type":"boat","title":"Лодки и катамараны", "img":"photos/main/block_preview/additional/boat.jpg"},
+          {"type":"rod","title":"Удочки для рыбалки", "img":"photos/main/block_preview/additional/fishing_rod.jpg"},
+          {"type":"sports","title":"Спортивный инвентарь", "img":"photos/main/block_preview/additional/sports_equipment.jpeg"}
+        ]
+      }
+    }
+  ],
+  "type": "preview"
+}

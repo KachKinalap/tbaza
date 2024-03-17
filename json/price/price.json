@@ -1,0 +1,645 @@
+[
+    {
+        "type": "notice",
+        "id": 0,
+        "title": "Примечание",
+        "items": [
+            "Заезд в домики (дом охотника,  4, 5, 7, 8,10, 17, 18, 19, 20) в 13:00, выезд в 12:00 следующего дня",
+            "Заезд в домики (Vip1, vip2, vip3, Азбар 1, Азбар 2, домик на окраине, домик на колесах, юртs, 12, 13, 14, 15, 16) в 14:00, выезд в 13:00 следующего дня",
+            "Аренда беседок, веранд, колесниц с 10:00 до 22:00; продление беседок и веранд после 22:00 по 500 рублей/час",
+            "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)",
+            "Дополнительный комплект белья - 250 рублей",
+            "Проезд на территорию арендаторам беседок- 200 рублей, стоянка - 100 рублей с автомобиля",
+            "Место для 2-х местной палатки - 300 рублей, 4-х местной - 500 рублей",
+            "Проживание и вход на пляж с животными запрещен!",
+            "Предоплата не возвращается"
+        ]
+    },
+    {
+        "type":  "free",
+        "id": 1,
+        "items": [
+        "проход на территорию",
+        "пользование пляжем, детскими и спортивными площадками"
+    ]},
+    {
+        "type": "home",
+        "id": 2,
+        "preview": {"title": "Домик VIP №1 (6-х местный с удобствами в доме, закрытая территория) + веранда", "cost": 7000, "notice": "На 6 человек в сутки", "img": "photos/from_price/homevip1/main.jpg", "addition": []},
+        "details": {
+            "caption": "6-ти местный домик с удобствами в доме, закрытая территория + веранда",
+            "describing": {
+                "main": "Огороженный двухэтажный дом, на территории дома имеется парковка, мангал, беседка и веранда.",
+                "topics":[
+                    {"title": "На веранде:", "options": ["1 диван", "мойка", "холодильник", "микроволновка", "посуда на 6 человек", "стол и скамейки"]},
+                    {"title": "Внутри дома:", "options": [{"title":"1 этаж:", "options":["1 двуспальный диван", "телевизор", "кондиционер", "душевая", "туалет", "обогреватель"]}, {"title":"2 этаж:", "options":["двуспальная кровать и тумбочки"]}]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики (VIP1, VIP2, VIP3) в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/homevip1/gallery/1.jpg",
+                    "photos/from_price/homevip1/gallery/2.jpg",
+                    "photos/from_price/homevip1/gallery/3.jpg",
+                    "photos/from_price/homevip1/gallery/4.jpg",
+                    "photos/from_price/homevip1/gallery/5.jpg",
+                    "photos/from_price/homevip1/gallery/6.jpg",
+                    "photos/from_price/homevip1/gallery/7.jpg",
+                    "photos/from_price/homevip1/gallery/8.jpg",
+                    "photos/from_price/homevip1/gallery/9.jpg",
+                    "photos/from_price/homevip1/gallery/10.jpg",
+                    "photos/from_price/homevip1/gallery/11.jpg",
+                    "photos/from_price/homevip1/gallery/12.jpg",
+                    "photos/from_price/homevip1/gallery/13.jpg",
+                    "photos/from_price/homevip1/gallery/14.jpg",
+                    "photos/from_price/homevip1/gallery/15.jpg",
+                    "photos/from_price/homevip1/gallery/16.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 3,
+        "preview": {"title": "Домик VIP №2 (10-ти местный с удобствами в доме, закрытая территория)", "cost": 10000, "notice": "На 10 человек в сутки", "img": "photos/from_price/homevip2/main.jpg", "addition": [{"title": "веранда до 30 человек", "cost": 3000}]},
+        "details": {
+            "caption": "10-местный домик с удобствами в доме, закрытая территория)+ веранда до 30 человек (оплачивается отдельно)",
+            "describing": {
+                "main": "Двухэтажный огороженный дом, рассчитан на 10 человек + отдельная веранда до 30 человек (оплачивается отдельно).",
+                "topics":[
+                    {"title": "Внутри дома:", "options": [{"title":"1 этаж:", "options":["односпальный диван", "кухонный гарнитур", "холодильник, микроволновка, чайник, посуда", "душевая, туалет", "стиральная машина, фен, утюг и гладильная доска"]}, {"title":"2 этаж:", "options":["1 комната - две двуспальные кровати и диван", "2 комната - две двуспальные кровати"]}]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики (VIP1, VIP2, VIP3) в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/homevip2/gallery/1.jpg",
+                    "photos/from_price/homevip2/gallery/2.jpg",
+                    "photos/from_price/homevip2/gallery/3.jpg",
+                    "photos/from_price/homevip2/gallery/4.jpg",
+                    "photos/from_price/homevip2/gallery/5.jpg",
+                    "photos/from_price/homevip2/gallery/6.jpg",
+                    "photos/from_price/homevip2/gallery/7.jpg",
+                    "photos/from_price/homevip2/gallery/8.jpg",
+                    "photos/from_price/homevip2/gallery/9.jpg",
+                    "photos/from_price/homevip2/gallery/10.jpg",
+                    "photos/from_price/homevip2/gallery/11.jpg",
+                    "photos/from_price/homevip2/gallery/12.jpg",
+                    "photos/from_price/homevip2/gallery/13.jpg",
+                    "photos/from_price/homevip2/gallery/14.jpg",
+                    "photos/from_price/homevip2/gallery/15.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 4,
+        "preview": {"title": "Домик VIP №3 (12-ти местный с удобствами в доме, закрытая территория)", "cost": 13000, "notice": "На 12 человек в сутки", "img": "photos/from_price/homevip3/main.jpg", "addition": [{"title": "веранда до 50 человек", "cost": 5000}, {"title": "Дополнительные услуги-баня (сеанс-2 часа)", "cost": 2000}]},
+        "details": {
+            "caption": "12-ти местный домик с удобствами в доме, закрытая территория + веранда до 50 человек. На территории расположена баня - она входит в дополнительные услуги",
+            "describing": {
+                "main": "Двухэтажный огороженный дом с удобным пирсом, где расположена беседка до 50 человек. На территории установлен мангал для шашлыка и казана, а через забор баня №3.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": [{"title":"1 этаж:", "options":["2 двуспальных дивана", "кухонный гарнитур", "холодильник, микроволновка, чайник, посуда", "душевая, туалет", "стиральная машина, фен, утюг и гладильная доска"]}, {"title":"2 этаж:", "options":["1 комната - две двуспальные кровати и диван", "2 комната - две двуспальные кровати"]}]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики (VIP1, VIP2, VIP3) в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/homevip3/gallery/1.jpg",
+                    "photos/from_price/homevip3/gallery/2.jpg",
+                    "photos/from_price/homevip3/gallery/3.jpg",
+                    "photos/from_price/homevip3/gallery/4.jpg",
+                    "photos/from_price/homevip3/gallery/5.jpg",
+                    "photos/from_price/homevip3/gallery/6.jpg",
+                    "photos/from_price/homevip3/gallery/7.jpg",
+                    "photos/from_price/homevip3/gallery/8.jpg",
+                    "photos/from_price/homevip3/gallery/9.jpg",
+                    "photos/from_price/homevip3/gallery/10.jpg",
+                    "photos/from_price/homevip3/gallery/11.jpg",
+                    "photos/from_price/homevip3/gallery/12.jpg",
+                    "photos/from_price/homevip3/gallery/13.jpg",
+                    "photos/from_price/homevip3/gallery/14.jpg",
+                    "photos/from_price/homevip3/gallery/15.jpg",
+                    "photos/from_price/homevip3/gallery/16.jpg",
+                    "photos/from_price/homevip3/gallery/17.jpg",
+                    "photos/from_price/homevip3/gallery/18.jpg",
+                    "photos/from_price/homevip3/gallery/19.jpg",
+                    "photos/from_price/homevip3/gallery/20.jpg",
+                    "photos/from_price/homevip3/gallery/21.jpg",
+                    "photos/from_price/homevip3/gallery/22.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 5,
+        "preview": {"title": "Домик №4 ( 5-ти местный летний душ и туалет на улице)", "cost": 4500, "notice": "На 5 человек в сутки", "img": "photos/from_price/home4/main.jpg", "addition": []},
+        "details": {
+            "caption": "5-ти местный дом, удобства на улице, территория частично огорожена, есть выход к пруду.",
+            "describing": {
+                "main": "5-ти местный дом, удобства на улице, территория частично огорожена с мангалом и беседкой, есть выход к пруду, через забор баня №3.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["2 двуспальные кровати", "1 односпальная кровать", "холодильник", "чайник", "телевизор"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики 4, 5, 7, 8,10, 17, 18, 19, 20 в 13:00, выезд в 12:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/home4/gallery/1.jpg",
+                    "photos/from_price/home4/gallery/2.jpg",
+                    "photos/from_price/home4/gallery/3.jpg",
+                    "photos/from_price/home4/gallery/4.jpg",
+                    "photos/from_price/home4/gallery/5.jpg",
+                    "photos/from_price/home4/gallery/6.jpg",
+                    "photos/from_price/home4/gallery/7.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 6,
+        "preview": {"title": "Домик №5 (4-хместный с удобствами в доме)", "cost": 5500, "notice": "На 4 человек в сутки", "img": "photos/from_price/home5/main.jpg", "addition": []},
+        "details": {
+            "caption": "4-хместный дом, частично огорожен с удобствами в доме.",
+            "describing": {
+                "main": "Одноэтажный домик, территория частично огорожена, во дворе мангал и беседка, есть выход к воде.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["двуспальные кровать и диван", "гарнитур кухонный", "посуда", "спутниковое телевидение на 200 каналов и wi-fi", "чайник, микроволновка и холодильник", "душевая, туалет и горячая вода"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики 4, 5, 7, 8,10, 17, 18, 19, 20 в 13:00, выезд в 12:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/home5/gallery/1.jpg",
+                    "photos/from_price/home5/gallery/2.jpg",
+                    "photos/from_price/home5/gallery/3.jpg",
+                    "photos/from_price/home5/gallery/4.jpg",
+                    "photos/from_price/home5/gallery/5.jpg",
+                    "photos/from_price/home5/gallery/6.jpg",
+                    "photos/from_price/home5/gallery/7.jpg",
+                    "photos/from_price/home5/gallery/8.jpg",
+                    "photos/from_price/home5/gallery/9.jpg",
+                    "photos/from_price/home5/gallery/10.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 7,
+        "preview": {"title": "Домик №7 (10-тиместный с удобствами в доме) + беседка", "cost": 10000, "notice": "На 10 человек в сутки", "img": "photos/from_price/home7/main.jpg", "addition": []},
+        "details": {
+            "caption": "10-тиместный дом с удобствами в доме, территория не огорожена, рядом баня №9.",
+            "describing": {
+                "main": "Одноэтажный домик, не огорожен. На территории имеется детская площадка, мангал, пристрой открытого типа со столом и скамейками. Рядом баня №9 и дом №8. Все удобства в доме.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["1 комната - двуспальная кровать, шкаф, тумбы, установлен кондиционер", "2 комната - 3 двуспальных кровати, телевизор и тумбы", "большая кухня, кухонный гарнитур", "двухместный диван", "микроволновка", "спутниковое телевидение на 200 каналов, wi-fi", "чайник, холодильник", "горячая вода"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики 4, 5, 7, 8,10, 17, 18, 19, 20 в 13:00, выезд в 12:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/home7/gallery/1.jpg",
+                    "photos/from_price/home7/gallery/2.jpg",
+                    "photos/from_price/home7/gallery/3.jpg",
+                    "photos/from_price/home7/gallery/4.jpg",
+                    "photos/from_price/home7/gallery/5.jpg",
+                    "photos/from_price/home7/gallery/6.jpg",
+                    "photos/from_price/home7/gallery/7.jpg",
+                    "photos/from_price/home7/gallery/8.jpg"
+                ]
+            }
+        }
+    },
+    { "type": "home",
+        "id": 8,
+        "preview": {"title": "Домик №8 (6-тиместный с удобствами в доме) + беседка", "cost": 6500, "notice": "На 6 человек в сутки", "img": "photos/from_price/home8/main.jpg", "addition": []},
+        "details": {
+            "caption": "6-тиместный дом с удобствами в доме, имеется беседка.",
+            "describing": {
+                "main": "Одноэтажный дом, территория не огорожена. Около домика установлен мангал, беседка полиуретановая, рядом находится баня №9. Удобства в доме.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["кухонный гарнитур", "холодильник, микроволновка, чайник", "стол и стулья", "двухместный диван", "посуда", "спутниковое телевидение на 200 каналов, wi-fi", "в комнате - 2 двуспальных кровати и шкаф", "душевая с теплым полом и горячей водой"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики 4, 5, 7, 8,10, 17, 18, 19, 20 в 13:00, выезд в 12:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/home8/gallery/1.jpg",
+                    "photos/from_price/home8/gallery/2.jpg",
+                    "photos/from_price/home8/gallery/3.jpg",
+                    "photos/from_price/home8/gallery/4.jpg",
+                    "photos/from_price/home8/gallery/5.jpg",
+                    "photos/from_price/home8/gallery/6.jpg",
+                    "photos/from_price/home8/gallery/7.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 9,
+        "preview": {"title": "Домик №10 (8-миместный с удобствами в доме)", "cost": 8000, "notice": "На 8 человек в сутки", "img": "photos/from_price/home10/main.jpg", "addition": []},
+        "details": {
+            "caption": "8-миместный дом с удобствами в доме, территория не огорожена, есть веранда.",
+            "describing": {
+                "main": "Одноэтажный домик, территория не огорожена. Есть веранда, а рядом расположена баня №11(оплачивается отдельно).",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["комната с 3 двуспальными кроватями и двухместным диваном", "кондиционер", "спутниковое телевидение на 200 каналов, wi-fi", "душевая с горячей водой, туалет", "стиральная машинка", "кухня со всеми необходимыми удобствами и горячей водой"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики 4, 5, 7, 8,10, 17, 18, 19, 20 в 13:00, выезд в 12:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/home10/gallery/1.jpg",
+                    "photos/from_price/home10/gallery/2.jpg",
+                    "photos/from_price/home10/gallery/3.jpg",
+                    "photos/from_price/home10/gallery/4.jpg",
+                    "photos/from_price/home10/gallery/5.jpg",
+                    "photos/from_price/home10/gallery/6.jpg",
+                    "photos/from_price/home10/gallery/7.jpg",
+                    "photos/from_price/home10/gallery/8.jpg",
+                    "photos/from_price/home10/gallery/9.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 10,
+        "preview": {"title": "Домик летний №12, 13, 14, 15, 16, 17, 18, 19, 20 (2-хместные, с мангалом, удобства на улице)", "cost": 1700, "notice": "На 2-х человек в сутки", "img": "photos/from_price/otherhomes/main.jpg", "addition": []},
+        "details": {
+            "caption": "2-х местные домики с мангалом, удобства на улице."
+        }
+    },
+    {   "type": "home",
+        "id": 11,
+        "preview": {"title": "Домик на окраине (6-тиместный, удобства на улице) + беседка", "cost": 4500, "notice": "На 6 человек в сутки", "img": "photos/from_price/borderhome/main.jpg", "addition": []},
+        "details": {
+            "caption": "6-тиместный домик, летний душ, туалет на улице + беседка",
+            "describing": {
+                "main": "Домик на окраине отлично подойдет рыбакам и семьям с детьми - у дома много места, рядом песчаный пляж, в воде неглубоко. Удобства расположены на улице, есть холодная вода.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["две двуспальных кровати", "две односпальных кровати", "холодильник", "стол, чайник", "телевизор"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домик на окраине в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/borderhome/gallery/1.jpg",
+                    "photos/from_price/borderhome/gallery/2.jpg",
+                    "photos/from_price/borderhome/gallery/3.jpg",
+                    "photos/from_price/borderhome/gallery/4.jpg",
+                    "photos/from_price/borderhome/gallery/5.jpg",
+                    "photos/from_price/borderhome/gallery/6.jpg",
+                    "photos/from_price/borderhome/gallery/7.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "home",
+        "id": 12,
+        "preview": {"title": "Домик на колесах (немецкий домик). Удобства в доме + беседка.", "cost": 3000, "notice": "На 4 человек в сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {   "type": "home",
+        "id": 13,
+        "preview": {"title": "Домик охотника (с удобствами в доме) + навес", "cost": 9000, "notice": "На 8 человек в сутки", "img": "photos/from_price/hunterhome/main.jpg", "addition": [{"title": "Дополнительные услуги-баня (сеанс-2 часа)", "cost": 2000}]},
+        "details": {
+            "caption": "8-ми местный огороженный дом с удобствами внутри + навес. На территории расположена баня (оплачивается отдельно).",
+            "describing": {
+                "main": "Домик находится при въезде на турбазу. На территории расположены: деревянная беседка, мангал. У дома крытая терраса со столом и лавочками. В доме есть все удобства, кухня оборудована всем необходимым.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["2 двухместных дивана", "2 двуспальных кровати", "два шкафа и тумбы", "кондиционер", "холодильник", "микроволновка", "посуда", "спутниковое телевидение на 200 каналов и wi-fi"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в дом охотника в 13:00, выезд в 12:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/hunterhome/gallery/1.jpg",
+                    "photos/from_price/hunterhome/gallery/2.jpg",
+                    "photos/from_price/hunterhome/gallery/3.jpg",
+                    "photos/from_price/hunterhome/gallery/4.jpg",
+                    "photos/from_price/hunterhome/gallery/5.jpg",
+                    "photos/from_price/hunterhome/gallery/6.jpg",
+                    "photos/from_price/hunterhome/gallery/7.jpg",
+                    "photos/from_price/hunterhome/gallery/8.jpg",
+                    "photos/from_price/hunterhome/gallery/9.jpg",
+                    "photos/from_price/hunterhome/gallery/10.jpg"
+
+                ]
+            }
+        }
+    },
+    {   "type": "azbar",
+        "id": 14,
+        "preview": {"title": "Азбар 1 (с удобствами в доме, закрытая территория) + беседка", "cost": 9000, "notice": "На 8 человек в сутки", "img": "photos/from_price/azbar1/main.jpg", "addition": []},
+        "details": {
+            "caption": "8-ми местный домик с удобствами внутри, закрытая территория + беседка",
+            "describing": {
+                "main": "Одноэтажный дом на 8 человек, территория огорожена, есть парковка, на территории расположены беседка и мангал.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["1 комната - два двухместных дивана, кондиционер, шкаф, телевизор", "2 комната - 2 двуспальных кровати и тумбы", "кухонный гарнитур", "холодильник", "туалет, душевая", "фен, стиральная машинка", "спутниковое телевидение на 200 каналов и wi-fi"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики Азбар 1, Азбар 2 в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/azbar1/gallery/1.jpg",
+                    "photos/from_price/azbar1/gallery/2.jpg",
+                    "photos/from_price/azbar1/gallery/3.jpg",
+                    "photos/from_price/azbar1/gallery/4.jpg",
+                    "photos/from_price/azbar1/gallery/5.jpg",
+                    "photos/from_price/azbar1/gallery/6.jpg",
+                    "photos/from_price/azbar1/gallery/7.jpg",
+                    "photos/from_price/azbar1/gallery/8.jpg",
+                    "photos/from_price/azbar1/gallery/9.jpg"
+
+                ]
+            }
+        }
+    },
+    {   "type": "azbar",
+        "id": 15,
+        "preview": {"title": "Азбар 2 (с удобствами в доме, закрытая территория)", "cost": 7500, "notice": "На 6 человек в сутки", "img": "photos/from_price/azbar2/main.jpg", "addition": []},
+        "details": {
+            "caption": "6-ти местный одноэтажный дом. Огороженная территория с беседкой и мангалом.",
+            "describing": {
+                "main": "Одноэтажный дом, территория огорожена, есть парковка, отлично подойдет для семей с детьми. На территории расположена беседка, мангал.",
+                "topics":[
+                    {"title": "Внутри дома:", "options": ["двуспальный диван", "кондиционер", "шкаф", "телевизор", "2 двуспальных кровати и тумбы", "кухонный гарнитур", "холодильник", "туалет, душевая", "фен, стиральная машинка", "спутниковое телевидение на 200 каналов и wi-fi"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в домики Азбар 1, Азбар 2 в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/azbar2/gallery/1.jpg",
+                    "photos/from_price/azbar2/gallery/2.jpg",
+                    "photos/from_price/azbar2/gallery/3.jpg",
+                    "photos/from_price/azbar2/gallery/4.jpg",
+                    "photos/from_price/azbar2/gallery/5.jpg",
+                    "photos/from_price/azbar2/gallery/6.jpg",
+                    "photos/from_price/azbar2/gallery/7.jpg",
+                    "photos/from_price/azbar2/gallery/8.jpg",
+                    "photos/from_price/azbar2/gallery/9.jpg",
+                    "photos/from_price/azbar2/gallery/10.jpg"
+
+                ]
+            }
+        }
+    },
+    {   "type": "yurt",
+        "id": 16,
+        "preview": {"title": "Юрта 1, 2, 3 (летний душ, туалет на улице, беседка)", "cost": 2100, "notice": "На 3 человека в сутки", "img": "photos/from_price/yurt/main.jpg", "addition": []},
+        "details": {
+            "caption": "Доступны 3 юрты, расположенные недалеко друг от друга. Из удобств - летний душ, туалет на улице, беседка",
+            "describing": {
+                "main": "Юрты рассчитаны на 3 человека. Внутри есть холодильник, тумбочка, три спальных места, все удобства на улице.",
+                "topics":[
+                    {"title": "Дополнительная информация:", "options": ["Заезд в юрты в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/yurt/gallery/1.jpg",
+                    "photos/from_price/yurt/gallery/2.jpg",
+                    "photos/from_price/yurt/gallery/3.jpg",
+                    "photos/from_price/yurt/gallery/4.jpg",
+                    "photos/from_price/yurt/gallery/5.jpg",
+                    "photos/from_price/yurt/gallery/6.jpg",
+                    "photos/from_price/yurt/gallery/7.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "railway",
+        "id": 17,
+        "preview": {"title": "Голубой вагончик (с удобствами + беседка)", "cost": 5000, "notice": "На 5 человек в сутки", "img": "photos/from_price/railcar/main.jpg", "addition": []},
+        "details": {
+            "caption": "Вагончик с удобствами внутри + беседка, рядом c домом vip №1.",
+            "describing": {
+                "main": "Вагончик находится рядом с домом vip №1. Во дворе установлены беседка и мангал.",
+                "topics":[
+                    {"title": "Внутри вагончика:", "options": ["4 спальных полки, как в вагоне поезда", "двухместный диван", "холодильник", "душ, туалет", "чайник", "посуда"]},
+                    {"title": "Дополнительная информация:", "options": ["Заезд в вагончик в 14:00, выезд в 13:00 следующего дня", "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)", "Дополнительный комплект белья - 250 рублей", "Проживание и вход на пляж с животными запрещен!", "Предоплата не возвращается"]}
+                ],
+                "gallery":[
+                    "photos/from_price/railcar/gallery/1.jpg",
+                    "photos/from_price/railcar/gallery/2.jpg",
+                    "photos/from_price/railcar/gallery/3.jpg",
+                    "photos/from_price/railcar/gallery/4.jpg",
+                    "photos/from_price/railcar/gallery/5.jpg",
+                    "photos/from_price/railcar/gallery/6.jpg",
+                    "photos/from_price/railcar/gallery/7.jpg"
+                ]
+            }
+        }
+    },
+    {   "type": "camping",
+        "id": 18,
+        "preview": {"title": "Палатка одноместная", "cost": 200, "notice": "сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {   "type": "camping",
+        "id": 50,
+        "preview": {"title": "Палатка двухместная", "cost": 300, "notice": "сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {   "type": "camping",
+        "id": 51,
+        "preview": {"title": "Палатка трехместная", "cost": 400, "notice": "сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {   "type": "camping",
+        "id": 52,
+        "preview": {"title": "Палатка четырёхместная", "cost": 500, "notice": "сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {   "type": "camping",
+        "id": 54,
+        "preview": {"title": "Мангал", "cost": 200, "notice": "сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {   "type": "camping",
+        "id": 55,
+        "preview": {"title": "Проезд автомобиля", "cost": 100, "notice": "сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "bath",
+        "id": 19,
+        "preview": {"title": "Баня (4 простыни, 2 шапочки, 1 веник)", "cost": 2000, "notice": "Сеанс (2 часа) каждый следующий час 500 рублей", "img": "photos/services/bathhouse/main.jpg", "addition": [{"title": "1 веник", "cost": 150}, {"title": "1 простыня", "cost": 100}, {"title": "1 шапочка и рукавицы", "cost": 50}]},
+        "details": {
+            "caption": "Попариться в настоящей русской бане - что может быть лучше! У нас есть все необходимое для отличного отдыха!",
+            "describing": {
+                "main": "Одним из исконно русских удовольствий для нашего человека является посещение бани. Настоящая русская баня на дровах известна своими свойствами выводить из организма токсины, повышать тургор кожных покровов и снижать уровень стресса. Стоит посетить баню хотя бы для того, чтобы сбросить с себя тяжесть будней и восстановить силы. Вы сможете интересно и с пользой для здоровья провести время, как в большой компании, отмечая крупное событие, так и в тесном кругу, посетив баню на территории нашей базы отдыха «Белая гора». Гарантируем вам отдых в комфортных условиях с истинным благом для души и тела.",
+                "topics":[],
+                "gallery":[
+                    "photos/services/bathhouse/gallery/1.jpg",
+                    "photos/services/bathhouse/gallery/2.jpg",
+                    "photos/services/bathhouse/gallery/3.jpg",
+                    "photos/services/bathhouse/gallery/4.jpg",
+                    "photos/services/bathhouse/gallery/5.jpg",
+                    "photos/services/bathhouse/gallery/6.jpg",
+                    "photos/services/bathhouse/gallery/7.jpg"
+
+                ]
+            }
+        }
+    },
+    {
+        "type": "cafe",
+        "id": 20,
+        "preview": {"title": "Кафе «Бригантина» (вместимость до 80 человек)", "cost": 6000, "notice": "До 50 человек, с каждого следующего + 100 рублей", "img": "photos/services/cafe_brigantina/main.jpg", "addition": []},
+        "details": {
+            "caption":"Организуйте и проведите свое торжество на нашей базе отдыха!",
+            "describing": {
+                "main": "На базе отдыха «Белая гора» не только отдыхают, но и красиво празднуют свадьбы, дни рождения, Новый год и даже отмечают корпоративные мероприятия. По вашему выбору проведем торжество в кафе, на крытой веранде и, даже на берегу озера. Погрузиться в сказку выходных дней, оторваться от серых будней можно воспользовавшись услугами величавой «Бригантины» - уютного кафе в стиле корабля. Подготовка к свадьбе, корпоративу, юбилею или другому торжественному моменту вашей жизни может пройти без суеты, потому что наши повара - профессионалы, вежливый персонал выполнят всё, что вы задумали. Вы сможете попробовать разнообразные блюда и оценить наши новые предложения. Зал на 80 посадочных мест позволит вместить большую компанию друзей и коллег. Отдых в «Бригантине» принесёт вам настоящее удовольствие и оставит незабываемые впечатления.",
+                "topics":[],
+                "gallery":[
+                    "photos/services/cafe_brigantina/gallery/1.jpg",
+                    "photos/services/cafe_brigantina/gallery/2.jpg",
+                    "photos/services/cafe_brigantina/gallery/3.jpg",
+                    "photos/services/cafe_brigantina/gallery/4.jpg",
+                    "photos/services/cafe_brigantina/gallery/5.jpg",
+                    "photos/services/cafe_brigantina/gallery/6.jpg",
+                    "photos/services/cafe_brigantina/gallery/7.jpg",
+                    "photos/services/cafe_brigantina/gallery/8.jpg"
+                ]
+            }
+        }
+    },
+    {
+        "type": "cover",
+        "id": 21,
+        "preview": {"title": "Летнее кафе «Бригантина»", "cost": 1500, "notice": "До 12 человек", "img": "", "addition": []},
+        "details": {
+            "caption":"Летнее уютное кафе «Берег», расположенное на берегу водоёма, приглашает замечательно провести время с друзьями, отметить любой праздник, встретиться с коллегами и просто приятно отдохнуть.",
+            "describing": {
+                "main": "Летнее уютное кафе «Берег», расположенное на берегу водоёма, представляет собой уютный зал на 60 посадочных мест. Здесь можно замечательно провести время с друзьями, отметить любой праздник, встретиться с коллегами и просто приятно отдохнуть. Вы останетесь довольными гостеприимством персонала и высококачественным обслуживанием. В нашем меню представлены разнообразные вкусные блюда, приятные напитки, которые смогут удовлетворить запросы любого, даже самого взыскательного гостя. Уютно расположившись на летней веранде, как на островке спокойствия и лёгкости, на время сможете отвлечься от грустных мыслей и забот.",
+                "topics":[],
+                "gallery":[
+                    "photos/services/cafe_coast/gallery/1.jpg",
+                    "photos/services/cafe_coast/gallery/2.jpg",
+                    "photos/services/cafe_coast/gallery/3.jpg",
+                    "photos/services/cafe_coast/gallery/4.jpg"
+                ]
+            }
+        }
+    },
+    {
+        "type": "balcony",
+        "id": 22,
+        "preview": {"title": "Балкон летнее кафе «Берег»", "cost": 2500, "notice": "До 15 человек", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "hall",
+        "id": 24,
+        "preview": {"title": "Банкетный зал с террасой (вместимость до 120 человек)", "cost": 15000, "notice": "До 120 человек", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "terrace",
+        "id": 25,
+        "preview": {"title": "Летняя терраса с крышей (вместимость до 100 человек)", "cost": 10000, "notice": "До 100 человек, с каждого следующего + 100 рублей", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "veranda",
+        "id": 27,
+        "preview": {"title": "Веранда VIP № 3 (вместимость на 70 человек)", "cost": 5000, "notice": "До 50-ти человек, с каждого следующего + 100 рублей", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "veranda",
+        "id": 28,
+        "preview": {"title": "Веранда на террасе 1, Д с мангалом (вместимость до 70 человек)", "cost": 4000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "veranda",
+        "id": 29,
+        "preview": {"title": "Веранда на террасе 2, А, Б с мангалом (вместимость до 40 человек)", "cost": 3000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "veranda",
+        "id": 30,
+        "preview": {"title": "Веранда Г с мангалом (вместимость до 30 человек)", "cost": 3000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "veranda",
+        "id": 32,
+        "preview": {"title": "Веранда на Рыбацком", "cost": 3000, "notice": "До 16 человек", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "bower",
+        "id": 33,
+        "preview": {"title": "Беседка открытая с мангалом", "cost": 1000, "notice": "8-миместная", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "bower",
+        "id": 34,
+        "preview": {"title": "Беседка «Уютная» с мангалом", "cost": 2000, "notice": "вместимость до 8 человек", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "bower",
+        "id": 35,
+        "preview": {"title": "Беседка «Колесница», «Рыбак», «Тройка» с мангалом", "cost": 1000, "notice": "вместимость до 6 человек", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "bower",
+        "id": 36,
+        "preview": {"title": "Беседка-шестигранник с мангалом", "cost": 1000, "notice": "вместимость до 6 человек", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "boat",
+        "id": 38,
+        "preview": {"title": "Катамаран", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "boat",
+        "id": 39,
+        "preview": {"title": "Лодка", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 40,
+        "preview": {"title": "Мяч (волейбольный, футбольный)", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 41,
+        "preview": {"title": "Теннисный стол", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 42,
+        "preview": {"title": "Самокат", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 43,
+        "preview": {"title": "Велосипед взрослый (детский)", "cost": "200(100)", "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 44,
+        "preview": {"title": "Ролики", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 45,
+        "preview": {"title": "Бадминтон", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 46,
+        "preview": {"title": "Коньки", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 47,
+        "preview": {"title": "Лыжи", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "sports",
+        "id": 48,
+        "preview": {"title": "Ватрушки", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    },
+    {
+        "type": "rod",
+        "id": 49,
+        "preview": {"title": "Удочки дл рыбалки", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "details": {}
+    }
+]

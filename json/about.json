@@ -1,0 +1,20 @@
+{
+    "main_img": "photos/about/main.jpg",
+    "gallery":[
+        "photos/about/gallery/1.jpg",
+        "photos/about/gallery/2.jpg",
+        "photos/about/gallery/3.jpg",
+        "photos/about/gallery/4.jpg",
+        "photos/about/gallery/5.jpg",
+        "photos/about/gallery/6.jpg",
+        "photos/about/gallery/7.jpg",
+        "photos/about/gallery/8.jpg",
+        "photos/about/gallery/9.jpg",
+        "photos/about/gallery/10.jpg",
+        "photos/about/gallery/11.jpg",
+        "photos/about/gallery/12.jpg",
+        "photos/about/gallery/13.jpg",
+        "photos/about/gallery/14.jpg",
+        "photos/about/gallery/15.jpg"
+    ]
+}
