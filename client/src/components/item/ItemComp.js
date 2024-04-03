@@ -3,6 +3,8 @@ import { ItemHeader, ScreenDiv } from "../../styled";
 import LivingComp from "./types/LivingComp";
 import ItemsSliderComp from "../sliders/itemsSlider/ItemsSliderComp";
 import PreviewInfo from "../../UI/PreviewInfo";
+import { BOOKING_TYPES } from "../../utils/const";
+import MyButton from "../../UI/MyButton";
 
 const ItemComp = (props) => {
 
@@ -21,6 +23,12 @@ const ItemComp = (props) => {
                 }
                 <PreviewInfo data={props.data.preview} caption={props.data.details.caption? props.data.details.caption : ""}/>
             </div>
+            {BOOKING_TYPES.includes(props.data.type)
+                ?
+                    <MyButton text="Забронировать"/>
+                :
+                    <></>
+            }
                 <LivingComp data={props.data.details}/>
         </ScreenDiv>
     );

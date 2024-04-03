@@ -25,3 +25,5 @@ export const BUCKET_CONN = "https://s3.timeweb.cloud/c1718d14-tbaza58/static/"
 export const LIVING_TYPE = ["home", "azbar", "yurt", "railway", "camping"]
 export const SERVICE_TYPE = ["bath", "cafe", "cover", "balcony", "desk", "hall", "terrace", "veranda", "semicover", "bower"]
 export const ADDITIONAL_TYPE = ["boat", "sports", "rod"]
+
+export const BOOKING_TYPES = ["home"]
