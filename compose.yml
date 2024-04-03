@@ -36,6 +36,9 @@ services:
 
   db:
     image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=!HdjUK0(&7JlCfn
     container_name: db
     restart: always
     tty: true

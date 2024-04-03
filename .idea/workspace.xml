@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7169d07e-0694-4423-956a-fb3a78df0914" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/UI/ItemBlockNotice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UI/ItemBlockNotice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/UI/PreviewInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UI/PreviewInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/item/types/LivingComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/item/types/LivingComp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/price/category/ItemCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/price/category/ItemCategory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/price/preview/GroupPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/price/preview/GroupPreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/sliders/itemsSlider/MainItemsSliderComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sliders/itemsSlider/MainItemsSliderComp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styled/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styled/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2dmTePRvDI6ormWuL8MAJw5fgM4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +33,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -52,10 +47,16 @@
       <updated>1710612348546</updated>
       <workItem from="1710612349691" duration="20000" />
       <workItem from="1710674198567" duration="329000" />
+      <workItem from="1712171763222" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client" />
+    </ignored-roots>
   </component>
 </project>
