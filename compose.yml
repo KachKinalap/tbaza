@@ -35,10 +35,8 @@ services:
     command: npm start
 
   db:
-    image: mongo
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=!HdjUK0(&7JlCfn
+    build:
+      context: client
     container_name: db
     restart: always
     tty: true
