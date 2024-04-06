@@ -38,9 +38,6 @@ services:
     build:
       context: client
     container_name: db
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
     restart: always
     tty: true
     ports:
