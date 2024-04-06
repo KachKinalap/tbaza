@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7169d07e-0694-4423-956a-fb3a78df0914" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mongo/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/importscript.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/init-mongo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/about.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/about.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/contacts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/events.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/main.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/main.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/price/price.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/price/price.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/price/price_preview.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/price/price_preview.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/services.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/importscript.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/importscript.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,7 @@
       <workItem from="1710612349691" duration="20000" />
       <workItem from="1710674198567" duration="329000" />
       <workItem from="1712171763222" duration="1269000" />
-      <workItem from="1712426487467" duration="1456000" />
+      <workItem from="1712426487467" duration="2122000" />
     </task>
     <servers />
   </component>
