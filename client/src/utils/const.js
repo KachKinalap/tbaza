@@ -18,7 +18,7 @@ export const SILENT_ROUTES = [
     {path: "/price/:type", component: <PriceGroup/>},
     {path: "/item/:id", component: <Item/>}
 ]
-export const SERV_CONN = "localhost:5000/api"
+export const SERV_CONN = "46.19.66.244:8000/api"
 
 export const BUCKET_CONN = "https://s3.timeweb.cloud/c1718d14-tbaza58/static/"
 
