@@ -1,6 +1,7 @@
 import React from 'react';
 import ItemsSliderComp from "../sliders/itemsSlider/ItemsSliderComp";
 import {BorderTextCont, BorderTextContHeader} from "../../styled";
+import MediaQuery from "react-responsive";
 
 const EventsComp = (props) => {
 
@@ -13,13 +14,15 @@ const EventsComp = (props) => {
                 eventsByCount.map(el => {
                     return <BorderTextCont>
                                 <BorderTextContHeader>{el.preview.title}</BorderTextContHeader>
-                                <div style={{display: "flex"}}>
-                                    <div style={{width:"50%", display: "flex", justifyContent: "space-between"}}>
+                                <div style={{display: "flex", justifyContent:"center", alignItems: "center"}}>
+                                    <div style={{width: "50%"}}>
                                         <ItemsSliderComp paths={el.details.gallery}/>
-                                        <span style={{fontSize: 30, alignSelf: "center", margin: "auto"}}>{el.preview.date}</span>
                                     </div>
-                                    <div style={{width: "50%", display: "flex"}}>
-                                        <p style={{fontSize: 13, padding: 10, display: "inline-block", textAlign:"left", alignSelf: "center"}}>{el.details.text}</p>
+                                    <div style={{width: "50%"}}>
+                                        <div style={{fontSize: 30}}>{el.preview.date}</div>
+                                        <MediaQuery minWidth={1360}>
+                                            <div style={{fontSize: 16, padding: 10, display: "inline-block", textAlign:"left"}}>{el.details.text}</div>
+                                        </MediaQuery>
                                     </div>
                                 </div>
                            </BorderTextCont>

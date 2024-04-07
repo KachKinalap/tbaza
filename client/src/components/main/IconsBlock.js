@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import {HorFlexDiv} from "../../styled";
-import {getPic} from "../../http";
+import React, { useEffect, useState } from 'react';
+import { HorFlexDivCent } from "../../styled";
+import { getPic } from "../../http";
 
 const IconsBlock = (props) => {
     //TODO переделать иконки в SVG, а то чо как ебан черные иконки вставляешь мудила сделай белые
@@ -22,11 +22,11 @@ const IconsBlock = (props) => {
     },[])
 
     return (
-        <HorFlexDiv>
+        <HorFlexDivCent>
             {data !== []
                 ?
                 data.map(el => {
-                return <div style={{padding:'0 2%'}}>
+                return <div style={{padding:'40px 2%'}}>
                     <img src={el.img} alt=""/>
                     <h4 style={{fontSize:14, marginTop: 20}}>{el.title}</h4>
                 </div>
@@ -34,7 +34,7 @@ const IconsBlock = (props) => {
                 :
                 <></>
             }
-        </HorFlexDiv>
+        </HorFlexDivCent>
     );
 };
 

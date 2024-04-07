@@ -6,7 +6,7 @@ import IconsBlock from "./IconsBlock";
 
 const CapabilitiesComp = (props) => {
     return (
-        <div  style={{marginBottom:100}}>
+        <div style={{marginBottom:100}}>
         <HorFlexDiv>
             <MainItemsSliderComp title={props.data[0].living.title} items={props.data[0].living.items}/>
             <MainItemsSliderComp title={props.data[0].services.title} items={props.data[0].services.items}/>

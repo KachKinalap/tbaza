@@ -33,6 +33,16 @@ export const HorFlexDiv = styled.div`
     //border: 3px solid blue;
 `;
 
+export const HorFlexDivCent = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+    //border: 3px solid blue;
+`;
+
 export const HorFlexDivPrice = styled.div`
     display: flex;
     flex-direction: row;
@@ -44,15 +54,15 @@ export const HorFlexDivPrice = styled.div`
 `;
 
 export const HorSliderItemCont = styled.div`
-    min-width: 444px;
-    width: 30%;
-    min-height: 250px;
+  
+    width: 100%;
+    max-width: 420px; 
     height: 100%;
     //border: 3px solid green;
 `;
 
 export const ItemSliderCont = styled.div`
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
     
@@ -109,9 +119,22 @@ export const FooterCont = styled.div`
     color: ${COLOURS.BEJ};
 `;
 
+export const FooterContCent = styled.div`
+    width: 100%;
+    background-color: ${COLOURS.BLUE};
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    color: ${COLOURS.BEJ};
+`;
+
 export const FooterItem = styled.div`
     margin-top: 30px;
-    
 `
 
-
+export const FooterItemCent = styled.div`
+    margin-top: 30px;
+    width: 100%
+`

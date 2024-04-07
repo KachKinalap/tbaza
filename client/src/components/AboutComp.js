@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getPic } from "../http";
 import { PageDiv } from "../styled";
 import { COLOURS } from "../styled";
+import MediaQuery from "react-responsive";
 const AboutComp = (props) => {
 
     const [photos, setPhotos] = useState([])
@@ -30,21 +31,36 @@ const AboutComp = (props) => {
                     </div>
 
                     <div style={{width: "100%", height: 50, boxShadow: `0 0 20px 25px ${COLOURS.BEJ}`, backgroundColor: "rgba(237, 245, 225, .5)", position: "relative"}}></div>
-
-                    <div style={{background: `url(${photos[1]})`, width: "100%", height: "100vh", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
-                        <div style={{backgroundColor: "rgba(0,0,0,.7)", width: "100%", height: "100%", display: "flex", alignItems: "center", padding: "0 20%", justifyContent: "space-around", fontSize: 24}}>
-                            <span>Мы предлагаем:</span>
-                            <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap", fontSize: 16}}>
-                                <div className="aboutItem">банный отдых</div>
-                                <div className="aboutItem">рыбалка</div>
-                                <div className="aboutItem">активные развлечения</div>
-                                <div className="aboutItem">водные развлечения</div>
-                                <div className="aboutItem">кафе</div>
+                    <MediaQuery minWidth={840}>
+                        <div style={{background: `url(${photos[1]})`, width: "100%", height: "100vh", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
+                            <div style={{backgroundColor: "rgba(0,0,0,.7)", width: "100%", height: "100%", display: "flex", alignItems: "center", padding: "0 20%", justifyContent: "space-around", fontSize: 24}}>
+                                <span>Мы предлагаем:</span>
+                                <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap", fontSize: 16}}>
+                                    <div className="aboutItem">банный отдых</div>
+                                    <div className="aboutItem">рыбалка</div>
+                                    <div className="aboutItem">активные развлечения</div>
+                                    <div className="aboutItem">водные развлечения</div>
+                                    <div className="aboutItem">кафе</div>
+                                </div>
+                                <span>и многое другое...</span>
                             </div>
-                            <span>и многое другое...</span>
                         </div>
-                    </div>
-
+                    </MediaQuery>
+                    <MediaQuery maxWidth={840}>
+                        <div style={{background: `url(${photos[1]})`, width: "100%", height: "100vh", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
+                            <div style={{backgroundColor: "rgba(0,0,0,.7)", width: "100%", height: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "0 20%", fontSize: 24}}>
+                                <div>Мы предлагаем:</div>
+                                <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap", fontSize: 16}}>
+                                    <div className="aboutItem">банный отдых</div>
+                                    <div className="aboutItem">рыбалка</div>
+                                    <div className="aboutItem">активные развлечения</div>
+                                    <div className="aboutItem">водные развлечения</div>
+                                    <div className="aboutItem">кафе</div>
+                                </div>
+                                <div>и многое другое...</div>
+                            </div>
+                        </div>
+                    </MediaQuery>
                     <div style={{width: "100%", height: 50, boxShadow: `0 0 20px 25px ${COLOURS.BEJ}`, backgroundColor: "rgba(237, 245, 225, .5)", position: "relative"}}></div>
 
                     <div style={{background: `url(${photos[2]})`, width: "100%", height: "100vh", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>

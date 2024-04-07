@@ -9,8 +9,7 @@ function MyNavbar() {
     const currentURL = window.location.pathname;
 
     return (
-        <>
-        {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
+        [false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => (
         <Navbar style={{backgroundColor: COLOURS.BLUE}} expand="xl" fixed="top">
             <Container>
                 <Navbar.Brand style={{color: COLOURS.BEJ}} href="/">Белая гора</Navbar.Brand>
@@ -39,9 +38,7 @@ function MyNavbar() {
             </Navbar.Offcanvas>
             </Container>
         </Navbar>
-        ))}
-        </>
-    );
+        )));
 }
 
 export default MyNavbar;
