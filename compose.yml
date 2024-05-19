@@ -52,7 +52,7 @@ services:
     restart: always
     tty: true
     ports:
-      - "8000:80"
+      - "80:80"
     networks:
       - tbaza_network
     depends_on:

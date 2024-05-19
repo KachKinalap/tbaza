@@ -5,7 +5,6 @@
         "title": "Проживание",
         "items": [
           {"type":"home", "title":"Домики", "img":"photos/main/block_preview/living/home.jpg"},
-          {"type":"azbar", "title":"Азбары", "img":"photos/main/block_preview/living/azbar.jpg"},
           {"type":"yurt", "title":"Юрты", "img":"photos/main/block_preview/living/yurt.jpg"},
           {"type":"railway", "title":"Вагончики", "img":"photos/main/block_preview/living/railcar.jpg"},
           {"type":"camping", "title":"Кемпинг", "img":"photos/main/block_preview/living/camping.jpg"}
@@ -18,8 +17,7 @@
           {"type":"veranda","title":"Веранды", "img":"photos/main/block_preview/services/verands.jpg"},
           {"type":"bower","title":"Беседки", "img":"photos/main/block_preview/services/pavilion.jpg"},
           {"type":"cafe", "title":"Кафе", "img":"photos/main/block_preview/services/brigantina.jpg"},
-          {"type":"hall","title":"Банкетный зал с террасой", "img":""},
-          {"type":"terrace","title":"Летняя терраса с крышей", "img":""}
+          {"type":"hall","title":"Банкетный зал с террасой", "img":"photos/main/block_preview/services/big_hall.jpg"}
         ]
       },
       "additional": {

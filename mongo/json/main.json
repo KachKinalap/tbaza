@@ -33,8 +33,7 @@
                     {"type":"bower","title":"Беседки", "img":"photos/main/block_preview/services/pavilion.jpg"},
                     {"type":"cafe","title":"Кафе \"Бригантина\"", "img":"photos/main/block_preview/services/brigantina.jpg"},
                     {"type":"cafe","title":"Летнее кафе \"Берег\"", "img":"photos/main/block_preview/services/coast.jpg"},
-                    {"type":"hall","title":"Банкетный зал с террасой", "img":""},
-                    {"type":"terrace","title":"Летняя терраса с крышей", "img":""}
+                    {"type":"hall","title":"Банкетный зал с террасой", "img":"photos/main/block_preview/services/big_hall.jpg"}
                 ]
             },
             "additional": {
