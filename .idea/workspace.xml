@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7169d07e-0694-4423-956a-fb3a78df0914" name="Changes" comment="" />
+    <list default="true" id="7169d07e-0694-4423-956a-fb3a78df0914" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +43,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My\WEbSProjects\site_whitepeak_prod\client\public" />
       <recent name="D:\My\WEbSProjects\site_whitepeak_prod\mongo" />
     </key>
   </component>
@@ -68,7 +73,8 @@
       <workItem from="1712524174129" duration="681000" />
       <workItem from="1714671832909" duration="2554000" />
       <workItem from="1716132624553" duration="1430000" />
-      <workItem from="1716140930710" duration="4112000" />
+      <workItem from="1716140930710" duration="5164000" />
+      <workItem from="1717435232251" duration="280000" />
     </task>
     <servers />
   </component>
