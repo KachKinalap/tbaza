@@ -1,32 +1,32 @@
 import { SERV_CONN, BUCKET_CONN } from "../utils/const";
 
 export const getMain = async () => {
-    return await fetch(`http://${SERV_CONN}`)
+    return await fetch(`${SERV_CONN}`)
         .then(resp => resp.json());
 }
 
 export const getPrice = async () => {
-    return await fetch(`http://${SERV_CONN}/price`)
+    return await fetch(`${SERV_CONN}/price`)
         .then(resp => resp.json());
 }
 
 export const getPriceGroup = async (type) => {
-    return await fetch(`http://${SERV_CONN}/price/${type}`)
+    return await fetch(`${SERV_CONN}/price/${type}`)
         .then(resp => resp.json());
 }
 
 export const getPriceItem = async (id) => {
-    return await fetch(`http://${SERV_CONN}/item/${id}`)
+    return await fetch(`${SERV_CONN}/item/${id}`)
         .then(resp => resp.json());
 }
 
 export const getEvents = async () => {
-    return await fetch(`http://${SERV_CONN}/events`)
+    return await fetch(`${SERV_CONN}/events`)
         .then(resp => resp.json());
 }
 
 export const getAbout = async () => {
-    return await fetch(`http://${SERV_CONN}/about`)
+    return await fetch(`${SERV_CONN}/about`)
         .then(resp => resp.json());
 }
 
