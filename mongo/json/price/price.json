@@ -5,14 +5,15 @@
         "title": "Примечание",
         "items": [
             "Заезд в домики (дом охотника,  4, 5, 7, 8,10, 17, 18, 19, 20) в 13:00, выезд в 12:00 следующего дня",
-            "Заезд в домики (Vip1, vip2, vip3, Азбар 1, Азбар 2, домик на окраине, домик на колесах, юртs, 12, 13, 14, 15, 16) в 14:00, выезд в 13:00 следующего дня",
-            "Аренда беседок, веранд, колесниц с 10:00 до 22:00; продление беседок и веранд после 22:00 по 500 рублей/час",
+            "Заезд в домики (Vip1, vip2, vip3, Азбар 1, Азбар 2, домик на окраине, домик на колесах, юрта, 12, 13, 14, 15, 16) в 14:00, выезд в 13:00 следующего дня",
+            "Аренда беседок, веранд, колесниц с 10:00 до 22:00",
             "Дети до 6 лет - бесплатно, без постельного белья (250 рублей с постельным бельем)",
             "Дополнительный комплект белья - 250 рублей",
             "Проезд на территорию арендаторам беседок- 200 рублей, стоянка - 100 рублей с автомобиля",
-            "Место для 2-х местной палатки - 300 рублей, 4-х местной - 500 рублей",
+            "Место для 2-х местной палатки - 350 рублей, 4-х местной - 550 рублей",
             "Проживание и вход на пляж с животными запрещен!",
-            "Предоплата не возвращается"
+            "Предоплата не возвращается",
+            "Прокат мангала 350 рублей"
         ]
     },
     {
@@ -25,7 +26,7 @@
     {
         "type": "home",
         "id": 2,
-        "preview": {"title": "Домик VIP №1 (6-х местный с удобствами в доме, закрытая территория) + веранда", "cost": 7000, "notice": "На 6 человек в сутки", "img": "photos/from_price/homevip1/main.jpg", "addition": []},
+        "preview": {"title": "Домик VIP №1 (6-х местный с удобствами в доме, закрытая территория) + кухня", "cost": 8500, "notice": "На 6 человек в сутки", "img": "photos/from_price/homevip1/main.jpg", "addition": []},
         "details": {
             "caption": "6-ти местный домик с удобствами в доме, закрытая территория + веранда",
             "describing": {
@@ -58,7 +59,7 @@
     },
     {   "type": "home",
         "id": 3,
-        "preview": {"title": "Домик VIP №2 (10-ти местный с удобствами в доме, закрытая территория)", "cost": 10000, "notice": "На 10 человек в сутки", "img": "photos/from_price/homevip2/main.jpg", "addition": [{"title": "веранда до 30 человек", "cost": 3000}]},
+        "preview": {"title": "Домик VIP №2 (10-ти местный с удобствами в доме, закрытая территория)", "cost": 12000, "notice": "На 10 человек в сутки", "img": "photos/from_price/homevip2/main.jpg", "addition": [{"title": "веранда до 30 человек", "cost": 3000}]},
         "details": {
             "caption": "10-местный домик с удобствами в доме, закрытая территория)+ веранда до 30 человек (оплачивается отдельно)",
             "describing": {
@@ -89,7 +90,7 @@
     },
     {   "type": "home",
         "id": 4,
-        "preview": {"title": "Домик VIP №3 (12-ти местный с удобствами в доме, закрытая территория)", "cost": 13000, "notice": "На 12 человек в сутки", "img": "photos/from_price/homevip3/main.jpg", "addition": [{"title": "веранда до 50 человек", "cost": 5000}, {"title": "Дополнительные услуги-баня (сеанс-2 часа)", "cost": 2000}]},
+        "preview": {"title": "Домик VIP №3 (12-ти местный с удобствами в доме, закрытая территория)", "cost": 15000, "notice": "На 12 человек в сутки", "img": "photos/from_price/homevip3/main.jpg", "addition": [{"title": "веранда до 50 человек", "cost": 5000}, {"title": "Дополнительные услуги-баня (сеанс-2 часа)", "cost": 2500}]},
         "details": {
             "caption": "12-ти местный домик с удобствами в доме, закрытая территория + веранда до 50 человек. На территории расположена баня - она входит в дополнительные услуги",
             "describing": {
@@ -127,7 +128,7 @@
     },
     {   "type": "home",
         "id": 5,
-        "preview": {"title": "Домик №4 ( 5-ти местный летний душ и туалет на улице)", "cost": 4500, "notice": "На 5 человек в сутки", "img": "photos/from_price/home4/main.jpg", "addition": []},
+        "preview": {"title": "Домик №4 ( 4-х местный летний душ на улице)", "cost": 5500, "notice": "На 5 человек в сутки", "img": "photos/from_price/home4/main.jpg", "addition": []},
         "details": {
             "caption": "5-ти местный дом, удобства на улице, территория частично огорожена, есть выход к пруду.",
             "describing": {
@@ -150,7 +151,7 @@
     },
     {   "type": "home",
         "id": 6,
-        "preview": {"title": "Домик №5 (4-хместный с удобствами в доме)", "cost": 5500, "notice": "На 4 человек в сутки", "img": "photos/from_price/home5/main.jpg", "addition": []},
+        "preview": {"title": "Домик №5 (4-хместный с удобствами в доме)", "cost": 6500, "notice": "На 4 человек в сутки", "img": "photos/from_price/home5/main.jpg", "addition": []},
         "details": {
             "caption": "4-хместный дом, частично огорожен с удобствами в доме.",
             "describing": {
@@ -176,7 +177,7 @@
     },
     {   "type": "home",
         "id": 7,
-        "preview": {"title": "Домик №7 (10-тиместный с удобствами в доме) + беседка", "cost": 10000, "notice": "На 10 человек в сутки", "img": "photos/from_price/home7/main.jpg", "addition": []},
+        "preview": {"title": "Домик №7 (10-тиместный с удобствами в доме) + беседка", "cost": 11000, "notice": "На 10 человек в сутки", "img": "photos/from_price/home7/main.jpg", "addition": []},
         "details": {
             "caption": "10-тиместный дом с удобствами в доме, территория не огорожена, рядом баня №9.",
             "describing": {
@@ -200,7 +201,7 @@
     },
     { "type": "home",
         "id": 8,
-        "preview": {"title": "Домик №8 (6-тиместный с удобствами в доме) + беседка", "cost": 6500, "notice": "На 6 человек в сутки", "img": "photos/from_price/home8/main.jpg", "addition": []},
+        "preview": {"title": "Домик №8 (6-тиместный с удобствами в доме) + беседка", "cost": 7500, "notice": "На 6 человек в сутки", "img": "photos/from_price/home8/main.jpg", "addition": []},
         "details": {
             "caption": "6-тиместный дом с удобствами в доме, имеется беседка.",
             "describing": {
@@ -223,7 +224,7 @@
     },
     {   "type": "home",
         "id": 9,
-        "preview": {"title": "Домик №10 (8-миместный с удобствами в доме)", "cost": 8000, "notice": "На 8 человек в сутки", "img": "photos/from_price/home10/main.jpg", "addition": []},
+        "preview": {"title": "Домик №10 (8-миместный с удобствами в доме)", "cost": 9000, "notice": "На 8 человек в сутки", "img": "photos/from_price/home10/main.jpg", "addition": []},
         "details": {
             "caption": "8-миместный дом с удобствами в доме, территория не огорожена, есть веранда.",
             "describing": {
@@ -248,14 +249,14 @@
     },
     {   "type": "home",
         "id": 10,
-        "preview": {"title": "Домик летний №12, 13, 14, 15, 16, 17, 18, 19, 20 (2-хместные, с мангалом, удобства на улице)", "cost": 1700, "notice": "На 2-х человек в сутки", "img": "photos/from_price/otherhomes/main.jpg", "addition": []},
+        "preview": {"title": "Домик летний №12, 13, 14, 15, 16, 17, 18, 19, 20 (2-хместные, с мангалом, удобства на улице)", "cost": 2000, "notice": "На 2-х человек в сутки", "img": "photos/from_price/otherhomes/main.jpg", "addition": []},
         "details": {
             "caption": "2-х местные домики с мангалом, удобства на улице."
         }
     },
     {   "type": "home",
         "id": 11,
-        "preview": {"title": "Домик на окраине (6-тиместный, удобства на улице) + беседка", "cost": 4500, "notice": "На 6 человек в сутки", "img": "photos/from_price/borderhome/main.jpg", "addition": []},
+        "preview": {"title": "Домик на окраине (5-тиместный, удобства на улице) + беседка", "cost": 6000, "notice": "На 5 человек в сутки", "img": "photos/from_price/borderhome/main.jpg", "addition": []},
         "details": {
             "caption": "6-тиместный домик, летний душ, туалет на улице + беседка",
             "describing": {
@@ -276,14 +277,14 @@
             }
         }
     },
-    {   "type": "home",
+    {   "type": "home_not_working",
         "id": 12,
-        "preview": {"title": "Домик на колесах (немецкий домик). Удобства в доме + беседка.", "cost": 3000, "notice": "На 4 человек в сутки", "img": "", "addition": []},
+        "preview": {"title": "Домик на колесах (немецкий домик). Душ в доме, туалет на улице + беседка.", "cost": 5000, "notice": "На 4 человека в сутки", "img": "", "addition": []},
         "details": {}
     },
     {   "type": "home",
         "id": 13,
-        "preview": {"title": "Домик охотника (с удобствами в доме) + навес", "cost": 9000, "notice": "На 8 человек в сутки", "img": "photos/from_price/hunterhome/main.jpg", "addition": [{"title": "Дополнительные услуги-баня (сеанс-2 часа)", "cost": 2000}]},
+        "preview": {"title": "Домик охотника (с удобствами в доме) + навес", "cost": 10000, "notice": "На 8 человек в сутки", "img": "photos/from_price/hunterhome/main.jpg", "addition": [{"title": "Дополнительные услуги-баня (сеанс-2 часа)", "cost": 2500}]},
         "details": {
             "caption": "8-ми местный огороженный дом с удобствами внутри + навес. На территории расположена баня (оплачивается отдельно).",
             "describing": {
@@ -310,7 +311,7 @@
     },
     {   "type": "home",
         "id": 14,
-        "preview": {"title": "Азбар 1 (с удобствами в доме, закрытая территория) + беседка", "cost": 9000, "notice": "На 8 человек в сутки", "img": "photos/from_price/azbar1/main.jpg", "addition": []},
+        "preview": {"title": "Азбар 1 (с удобствами в доме, закрытая территория) + беседка", "cost": 12000, "notice": "На 8 человек в сутки", "img": "photos/from_price/azbar1/main.jpg", "addition": []},
         "details": {
             "caption": "8-ми местный домик с удобствами внутри, закрытая территория + беседка",
             "describing": {
@@ -336,7 +337,7 @@
     },
     {   "type": "home",
         "id": 15,
-        "preview": {"title": "Азбар 2 (с удобствами в доме, закрытая территория)", "cost": 7500, "notice": "На 6 человек в сутки", "img": "photos/from_price/azbar2/main.jpg", "addition": []},
+        "preview": {"title": "Азбар 2 (с удобствами в доме, закрытая территория)", "cost": 9000, "notice": "На 6 человек в сутки", "img": "photos/from_price/azbar2/main.jpg", "addition": []},
         "details": {
             "caption": "6-ти местный одноэтажный дом. Огороженная территория с беседкой и мангалом.",
             "describing": {
@@ -363,7 +364,7 @@
     },
     {   "type": "yurt",
         "id": 16,
-        "preview": {"title": "Юрта 1, 2, 3 (летний душ, туалет на улице, беседка)", "cost": 2100, "notice": "На 3 человека в сутки", "img": "photos/from_price/yurt/main.jpg", "addition": []},
+        "preview": {"title": "Юрта 1, 2, 3 (летний душ, туалет на улице, беседка)", "cost": 2500, "notice": "На 3 человека в сутки", "img": "photos/from_price/yurt/main.jpg", "addition": []},
         "details": {
             "caption": "Доступны 3 юрты, расположенные недалеко друг от друга. Из удобств - летний душ, туалет на улице, беседка",
             "describing": {
@@ -385,7 +386,7 @@
     },
     {   "type": "railway",
         "id": 17,
-        "preview": {"title": "Голубой вагончик (с удобствами + беседка)", "cost": 5000, "notice": "На 5 человек в сутки", "img": "photos/from_price/railcar/main.jpg", "addition": []},
+        "preview": {"title": "Синий вагончик (с удобствами + беседка)", "cost": 5000, "notice": "На 6 человек в сутки", "img": "photos/from_price/railcar/main.jpg", "addition": []},
         "details": {
             "caption": "Вагончик с удобствами внутри + беседка, рядом c домом vip №1.",
             "describing": {
@@ -414,7 +415,7 @@
     {
         "type": "bath",
         "id": 19,
-        "preview": {"title": "Баня (4 простыни, 2 шапочки, 1 веник)", "cost": 2000, "notice": "Сеанс (2 часа) каждый следующий час 500 рублей", "img": "photos/services/bathhouse/main.jpg", "addition": [{"title": "1 веник", "cost": 150}, {"title": "1 простыня", "cost": 100}, {"title": "1 шапочка и рукавицы", "cost": 50}]},
+        "preview": {"title": "Баня (4 простыни, 2 шапочки, 1 веник)", "cost": 2500, "notice": "Сеанс (2 часа) каждый следующий час 500 рублей", "img": "photos/services/bathhouse/main.jpg", "addition": [{"title": "1 веник", "cost": 150}, {"title": "1 простыня", "cost": 100}, {"title": "1 шапочка и рукавицы", "cost": 100}]},
         "details": {
             "caption": "Попариться в настоящей русской бане - что может быть лучше! У нас есть все необходимое для отличного отдыха!",
             "describing": {
@@ -436,7 +437,7 @@
     {
         "type": "cafe",
         "id": 20,
-        "preview": {"title": "Кафе «Бригантина» (вместимость до 80 человек)", "cost": 6000, "notice": "До 50 человек, с каждого следующего + 100 рублей", "img": "photos/services/cafe_brigantina/main.jpg", "addition": []},
+        "preview": {"title": "Кафе «Бригантина» (вместимость до 80 человек)", "cost": 7000, "notice": "До 50 человек, с каждого следующего + 100 рублей", "img": "photos/services/cafe_brigantina/main.jpg", "addition": []},
         "details": {
             "caption":"Организуйте и проведите свое торжество на нашей базе отдыха!",
             "describing": {
@@ -458,7 +459,7 @@
     {
         "type": "cover",
         "id": 21,
-        "preview": {"title": "Летнее кафе «Бригантина»", "cost": 1500, "notice": "До 12 человек", "img": "", "addition": []},
+        "preview": {"title": "Летнее кафе «Берег»", "cost": 1500, "notice": "До 12 человек", "img": "", "addition": []},
         "details": {
             "caption":"Летнее уютное кафе «Берег», расположенное на берегу водоёма, приглашает замечательно провести время с друзьями, отметить любой праздник, встретиться с коллегами и просто приятно отдохнуть.",
             "describing": {
@@ -507,7 +508,7 @@
     {
         "type": "veranda",
         "id": 26,
-        "preview": {"title": "Веранда на террасе 1, Д с мангалом (вместимость до 70 человек)", "cost": 4000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "photos/services/veranda/dplus1/main.jpg", "addition": []},
+        "preview": {"title": "Веранда на террасе 1, Д с мангалом (вместимость до 70 человек)", "cost": 5000, "notice": "До 10-ти человек, с каждого следующего + 50 рублей", "img": "photos/services/veranda/dplus1/main.jpg", "addition": []},
         "details": {
             "caption":"",
             "describing": {
@@ -522,7 +523,7 @@
     {
         "type": "veranda",
         "id": 27,
-        "preview": {"title": "Веранда на террасе 2, А, Б с мангалом (вместимость до 40 человек)", "cost": 3000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "photos/services/veranda/abplus2/main.jpg", "addition": []},
+        "preview": {"title": "Веранда на террасе 2, А, Б с мангалом (вместимость до 40 человек)", "cost": 4000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "photos/services/veranda/abplus2/main.jpg", "addition": []},
         "details": {
             "caption":"",
             "describing": {
@@ -540,7 +541,7 @@
     {
         "type": "veranda",
         "id": 28,
-        "preview": {"title": "Веранда Г с мангалом (вместимость до 30 человек)", "cost": 3000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "", "addition": []},
+        "preview": {"title": "Веранда Г с мангалом (вместимость до 30 человек)", "cost": 4000, "notice": "До 10-ти человек с каждого следующего + 50 рублей", "img": "", "addition": []},
         "details": {}
     },
     {
@@ -552,19 +553,19 @@
     {
         "type": "bower",
         "id": 30,
-        "preview": {"title": "Беседка открытая с мангалом", "cost": 1000, "notice": "8-миместная", "img": "", "addition": []},
+        "preview": {"title": "Беседка открытая с мангалом", "cost": 1500, "notice": "8-миместная", "img": "", "addition": []},
         "details": {}
     },
     {
         "type": "bower",
         "id": 31,
-        "preview": {"title": "Беседка «Уютная» с мангалом", "cost": 2000, "notice": "вместимость до 8 человек", "img": "photos/services/bower/homie/main.jpg", "addition": []},
+        "preview": {"title": "Беседка «Уютная» с мангалом", "cost": 2500, "notice": "вместимость до 8 человек", "img": "photos/services/bower/homie/main.jpg", "addition": []},
         "details": {}
     },
     {
         "type": "bower",
         "id": 32,
-        "preview": {"title": "Беседка «Белая гора», «Рыбак», «Тройка» с мангалом", "cost": 1000, "notice": "вместимость до 6 человек", "img": "photos/services/bower/chariot/main.jpg", "addition": []},
+        "preview": {"title": "Беседка «Белая гора», «Рыбак», «Тройка» с мангалом", "cost": 1500, "notice": "вместимость до 6 человек", "img": "photos/services/bower/chariot/main.jpg", "addition": []},
         "details": {
             "caption":"",
             "describing": {
@@ -581,7 +582,7 @@
     {
         "type": "bower",
         "id": 33,
-        "preview": {"title": "Беседка-шестигранник с мангалом", "cost": 1000, "notice": "вместимость до 6 человек", "img": "", "addition": []},
+        "preview": {"title": "Беседка-шестигранник с мангалом", "cost": 1500, "notice": "вместимость до 6 человек", "img": "", "addition": []},
         "details": {}
     },
     {
@@ -599,7 +600,7 @@
     {
         "type": "sports",
         "id": 36,
-        "preview": {"title": "Мяч (волейбольный, футбольный)", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Мяч (волейбольный, футбольный)", "cost": 200, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
@@ -611,43 +612,43 @@
     {
         "type": "sports",
         "id": 38,
-        "preview": {"title": "Самокат", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Самокат", "cost": 200, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
         "type": "sports",
         "id": 39,
-        "preview": {"title": "Велосипед взрослый (детский)", "cost": "200(100)", "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Велосипед взрослый (детский)", "cost": "300(200)", "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
         "type": "sports",
         "id": 40,
-        "preview": {"title": "Ролики", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Ролики", "cost": 200, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
         "type": "sports",
         "id": 41,
-        "preview": {"title": "Бадминтон", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Бадминтон", "cost": 200, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
         "type": "sports",
         "id": 42,
-        "preview": {"title": "Коньки", "cost": 100, "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Коньки", "cost": 300, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
         "type": "sports",
         "id": 43,
-        "preview": {"title": "Лыжи", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Лыжи", "cost": 300, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
         "type": "sports",
         "id": 44,
-        "preview": {"title": "Ватрушки", "cost": 200, "notice": "1 час", "img": "", "addition": []},
+        "preview": {"title": "Ватрушки", "cost": 300, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
     {
