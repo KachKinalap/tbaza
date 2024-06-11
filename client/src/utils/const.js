@@ -19,7 +19,7 @@ export const SILENT_ROUTES = [
     {path: "/item/:id", component: <Item/>}
 ]
 export const SERV_CONN = "https://tbaza58.ru/api"
-// export const SERV_CONN = "localhost:5000/api"
+// export const SERV_CONN = "http://localhost:5000/api"
 
 export const BUCKET_CONN = "https://s3.timeweb.cloud/c1718d14-tbaza58/static/"
 
