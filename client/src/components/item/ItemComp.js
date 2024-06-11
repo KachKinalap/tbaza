@@ -14,8 +14,8 @@ const ItemComp = (props) => {
             </ItemHeader>
             <div style={{display: "flex", flexDirection: "row", justifyContent: "space-around", alignItems: "start", width: "100%", flexWrap: "wrap"}}>
                 {Object.keys(props.data.details).length !== 0 &&
-                Object.keys(props.data.details.describing).length !== 0 &&
-                Object.keys(props.data.details.describing.gallery).length !== 0
+                props.data.details.describing !== undefined &&
+                props.data.details.describing.gallery !== undefined
                 ?
                     <ItemsSliderComp paths={props.data.details.describing.gallery}/>
                 :
@@ -23,7 +23,13 @@ const ItemComp = (props) => {
                 }
                 <PreviewInfo data={props.data.preview} caption={props.data.details.caption? props.data.details.caption : ""}/>
             </div>
-                <LivingComp data={props.data.details}/>
+                {props.data.details.describing !== undefined
+                    ?
+                        <LivingComp data={props.data.details}/>
+                    :
+                        <></>
+                }
+
         </ScreenDiv>
     );
 };
