@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7169d07e-0694-4423-956a-fb3a78df0914" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/item/ItemComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/item/ItemComp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/json/price/price.json" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/json/price/price.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,8 @@
       <workItem from="1717524062303" duration="3294000" />
       <workItem from="1717860265101" duration="3060000" />
       <workItem from="1718100809606" duration="636000" />
-      <workItem from="1718128836302" duration="2374000" />
+      <workItem from="1718128836302" duration="2719000" />
+      <workItem from="1719738299416" duration="889000" />
     </task>
     <servers />
   </component>
