@@ -407,7 +407,7 @@
             }
         }
     },
-    {   "type": "camping",
+    {   "type": "none",
         "id": 18,
         "preview": {"title": "Палатка одноместная", "cost": 200, "notice": "сутки", "img": "", "addition": []},
         "details": {}
@@ -657,29 +657,34 @@
         "preview": {"title": "Удочки дл рыбалки", "cost": 200, "notice": "1 час", "img": "", "addition": []},
         "details": {}
     },
-    {   "type": "camping",
+    {   "type": "none",
         "id": 46,
         "preview": {"title": "Палатка двухместная", "cost": 300, "notice": "сутки", "img": "", "addition": []},
         "details": {}
     },
-    {   "type": "camping",
+    {   "type": "none",
         "id": 47,
         "preview": {"title": "Палатка трехместная", "cost": 400, "notice": "сутки", "img": "", "addition": []},
         "details": {}
     },
-    {   "type": "camping",
+    {   "type": "none",
         "id": 48,
         "preview": {"title": "Палатка четырёхместная", "cost": 500, "notice": "сутки", "img": "", "addition": []},
         "details": {}
     },
-    {   "type": "camping",
+    {   "type": "none",
         "id": 49,
         "preview": {"title": "Мангал", "cost": 200, "notice": "сутки", "img": "", "addition": []},
         "details": {}
     },
-    {   "type": "camping",
+    {   "type": "none",
         "id": 50,
         "preview": {"title": "Проезд автомобиля", "cost": 100, "notice": "сутки", "img": "", "addition": []},
+        "details": {}
+    },
+    {   "type": "camping",
+        "id": 51,
+        "preview": {"title": "Аренда палаточного места", "cost": 500, "notice": "сутки", "img": "photos/main/block_preview/living/camping.jpg", "addition": []},
         "details": {}
     }
 ]

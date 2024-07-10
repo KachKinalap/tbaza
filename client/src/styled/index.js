@@ -76,7 +76,7 @@ export const ScreenSeparatorCont = styled.div`
     color: ${COLOURS.BEJ};
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 `;
 
 // div with label on border
