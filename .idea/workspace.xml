@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7169d07e-0694-4423-956a-fb3a78df0914" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certbot/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certbot/generate-certificate.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/key.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/const.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/belayagora58.crt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/belayagora58.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/tbaza58_cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/tbaza58_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +89,7 @@
       <workItem from="1722240125905" duration="638000" />
       <workItem from="1725440317405" duration="1720000" />
       <workItem from="1725450201600" duration="1160000" />
-      <workItem from="1725544121112" duration="1066000" />
+      <workItem from="1725544121112" duration="2043000" />
     </task>
     <servers />
   </component>
