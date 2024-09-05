@@ -51,13 +51,33 @@ services:
     container_name: nginx
     restart: always
     tty: true
+    volumes:
+      - ./nginx/cert.pem:/etc/cert.pem
+      - ./nginx/key.pem:/etc/key.pem
     ports:
+      - "80:80"
       - "443:443"
     networks:
       - tbaza_network
     depends_on:
        - back-end
        - front-end
+
+  certbot:
+    ports:
+      - "6000:80"
+    env_file:
+      - .env
+    # и снова мониторуем директорию nginx
+    volumes:
+      - ./nginx/:/etc/nginx/
+    build:
+      context: ./certbot
+      dockerfile: Dockerfile
+      # задаем переменные среды
+      args:
+        DOMAIN_EMAIL: ${DOMAIN_EMAIL}
+        DOMAIN_URL: ${DOMAIN_URL}
 
 networks:
   tbaza_network:
