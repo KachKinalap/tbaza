@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7169d07e-0694-4423-956a-fb3a78df0914" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +41,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My\WEbSProjects\site_whitepeak_prod\client\src\static\icons" />
       <recent name="D:\My\WEbSProjects\site_whitepeak_prod\nginx" />
+      <recent name="D:\My\WEbSProjects\site_whitepeak_prod\client\src\static\icons" />
       <recent name="D:\My\WEbSProjects\site_whitepeak_prod\client\public" />
       <recent name="D:\My\WEbSProjects\site_whitepeak_prod\mongo" />
     </key>
@@ -87,7 +86,7 @@
       <workItem from="1722240125905" duration="638000" />
       <workItem from="1725440317405" duration="1720000" />
       <workItem from="1725450201600" duration="1160000" />
-      <workItem from="1725544121112" duration="4199000" />
+      <workItem from="1725544121112" duration="4431000" />
     </task>
     <servers />
   </component>

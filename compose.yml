@@ -63,21 +63,21 @@ services:
        - back-end
        - front-end
 
-  certbot:
-    ports:
-      - "6000:80"
-    env_file:
-      - .env
-    # и снова мониторуем директорию nginx
-    volumes:
-      - ./nginx/:/etc/nginx/
-    build:
-      context: ./certbot
-      dockerfile: Dockerfile
-      # задаем переменные среды
-      args:
-        DOMAIN_EMAIL: ${DOMAIN_EMAIL}
-        DOMAIN_URL: ${DOMAIN_URL}
+#  certbot:
+#    ports:
+#      - "6000:80"
+#    env_file:
+#      - .env
+#    # и снова мониторуем директорию nginx
+#    volumes:
+#      - ./nginx/:/etc/nginx/
+#    build:
+#      context: ./certbot
+#      dockerfile: Dockerfile
+#      # задаем переменные среды
+#      args:
+#        DOMAIN_EMAIL: ${DOMAIN_EMAIL}
+#        DOMAIN_URL: ${DOMAIN_URL}
 
 networks:
   tbaza_network:
