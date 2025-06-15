@@ -219,3 +219,26 @@ body {
   transition: .2s;
 }
 
+.divMainSlider {
+  box-shadow: 10px #116fc2;
+  border-radius: 10px;
+  width: auto;
+  min-width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+    .divMainSlider {
+      min-width: 300px;
+      height: 200px;
+      max-width: 300px;
+    }
+  }
+
+.border {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid #116fc2;
+}

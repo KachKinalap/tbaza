@@ -27,7 +27,6 @@ function MyNavbar() {
                     <OffcanvasBody style={{backgroundColor: COLOURS.BLUE}}>
                     <Nav className="me-auto sidebar">
                         {ROUTES.map((el, index)=>{
-                            console.log(el.path, " ", currentURL)
                             if(currentURL == el.path)
                                 return <Nav.Link style={{color: COLOURS.BEJ}} href={el.path}><span className="activeLink navHref">{el.caption}</span></Nav.Link>
                             else

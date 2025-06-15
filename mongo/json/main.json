@@ -19,7 +19,6 @@
                 "title": "Проживание",
                 "items": [
                     {"type":"home","title":"Домики", "img":"photos/main/block_preview/living/home.jpg"},
-                    {"type":"azbar","title":"Азбары", "img":"photos/main/block_preview/living/azbar.jpg"},
                     {"type":"yurt","title":"Юрты", "img":"photos/main/block_preview/living/yurt.jpg"},
                     {"type":"railway","title":"Вагончики", "img":"photos/main/block_preview/living/railcar.jpg"},
                     {"type":"camping","title":"Кемпинг", "img":"photos/main/block_preview/living/camping.jpg"}

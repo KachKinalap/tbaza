@@ -33,6 +33,16 @@ export const HorFlexDiv = styled.div`
     //border: 3px solid blue;
 `;
 
+export const HorFlexDivMainSliders = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+    //border: 3px solid blue;
+`;
+
 export const HorFlexDivCent = styled.div`
     display: flex;
     flex-direction: row;
@@ -54,19 +64,43 @@ export const HorFlexDivPrice = styled.div`
 `;
 
 export const HorSliderItemCont = styled.div`
-  
-    width: 100%;
-    max-width: 420px; 
-    height: 100%;
-    //border: 3px solid green;
+    max-width: 300px;
+    @media (min-width: 800px) {
+        max-width: 500px;
+    }
+    margin: 0 2.5%;
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+`;
+export const HorSliderItemContHeader = styled.h4`
+    float: left;
+    margin-bottom: 20px; 
+    margin-top: 30px; 
+    color: ${COLOURS.BLUE}; 
+    text-wrap: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 300px;
+    @media (min-width: 800px) {
+        max-width: 500px;
+        text-align: center;
+        float: none;
+    }
+`;
+export const MainItemSliderCont = styled.div`
+    max-width: 300px;
+    @media (min-width: 800px) {
+        max-width: 500px;
+    }
 `;
 
 export const ItemSliderCont = styled.div`
-    width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-    
-    //border: 3px solid green;
+    max-width: 400px;
+    @media (min-width: 1500px) {
+        max-width: 800px;
+    }
 `;
 
 export const ScreenSeparatorCont = styled.div`

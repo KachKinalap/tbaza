@@ -4,7 +4,7 @@ import {BorderTextCont, BorderTextContHeader} from "../styled";
 const PreviewInfo = (props) => {
     console.log(props.caption)
     return (
-        <div style={{minWidth: 400}}>
+        <div style={{minWidth: 400, maxWidth:"50%"}}>
             <BorderTextCont className="hoverable hoverableItemPreview" style={{marginTop: 40, transition: ".2s"}}>
                 <BorderTextContHeader>Стоимость</BorderTextContHeader>
                 <h4 style={{marginTop: 10}}>{props.data.cost + " руб."}</h4>
