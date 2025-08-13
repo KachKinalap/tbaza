@@ -242,3 +242,7 @@ body {
   overflow: hidden;
   border: 3px solid #116fc2;
 }
+
+.border_test {
+  border: 1px solid red;
+}

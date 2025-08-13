@@ -12,15 +12,17 @@ const ItemComp = (props) => {
             <ItemHeader>
                 {props.data.preview.title}
             </ItemHeader>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "start", width: "100%", flexWrap: "wrap"}}>
+            <div style={{margin: "0 auto"}}>
                 
                 {Object.keys(props.data.details).length !== 0 &&
                 props.data.details.describing !== undefined &&
                 props.data.details.describing.gallery !== undefined
                 ?
-                <div style={{display: "flex", flexDirection: "row", justifyContent: "center", flexGrow: 1}}>
+                <div style={{margin:"0 auto"}}>
+                {/* <div style={{minHeight: 0, minWidth: 0, padding: 20}}> */}
                     <ItemsSliderComp paths={props.data.details.describing.gallery}/>
                 </div>
+                
                 :
                     <></>
                 }
