@@ -251,7 +251,16 @@
         "id": 10,
         "preview": {"title": "Домик летний №12, 13, 14, 15, 16, 17, 18, 19, 20 (2-хместные, с мангалом, удобства на улице)", "cost": 2000, "notice": "На 2-х человек в сутки", "img": "photos/from_price/otherhomes/main.jpg", "addition": []},
         "details": {
-            "caption": "2-х местные домики с мангалом, удобства на улице."
+            "caption": "2-х местные домики с мангалом, удобства на улице.",
+            "describing": {
+                "main": "",
+                "topics":[],
+                "gallery":[
+                    "photos/from_price/otherhomes/gallery/1.jpg",
+                    "photos/from_price/otherhomes/gallery/2.jpg",
+                    "photos/from_price/otherhomes/gallery/3.jpg"
+                ]
+            }
         }
     },
     {   "type": "home",
@@ -483,11 +492,11 @@
     {
         "type": "hall",
         "id": 23,
-        "preview": {"title": "Банкетный зал с террасой (вместимость до 120 человек)", "cost": 15000, "notice": "До 120 человек", "img": "photos/services/hall/main.jpg", "addition": []},
+        "preview": {"title": "Банкетный зал с террасой", "cost": 30000, "notice": "До 220 человек", "img": "photos/services/hall/main.jpg", "addition": []},
         "details": {
-            "caption":"Летнее уютное кафе «Берег», расположенное на берегу водоёма, приглашает замечательно провести время с друзьями, отметить любой праздник, встретиться с коллегами и просто приятно отдохнуть.",
+            "caption":"Организуйте и проведите свое торжество на нашей базе отдыха!",
             "describing": {
-                "main": "Летнее уютное кафе «Берег», расположенное на берегу водоёма, представляет собой уютный зал на 60 посадочных мест. Здесь можно замечательно провести время с друзьями, отметить любой праздник, встретиться с коллегами и просто приятно отдохнуть. Вы останетесь довольными гостеприимством персонала и высококачественным обслуживанием. В нашем меню представлены разнообразные вкусные блюда, приятные напитки, которые смогут удовлетворить запросы любого, даже самого взыскательного гостя. Уютно расположившись на летней веранде, как на островке спокойствия и лёгкости, на время сможете отвлечься от грустных мыслей и забот.",
+                "main": "Уютный и вместительный банкетный зал поделен на 2 зоны: основной зал (до 100 человек) и терраса (до 120 человек). Расположен на берегу пруда, имеет несколько входов для вашего удобства. Идеально подходит под любых масштабных мероприятий.",
                 "topics":[],
                 "gallery":[
                     "photos/services/hall/gallery/1.jpg",
@@ -607,14 +616,35 @@
     {
         "type": "boat",
         "id": 34,
-        "preview": {"title": "Катамаран", "cost": 200, "notice": "1 час", "img": "", "addition": []},
-        "details": {}
+        "preview": {"title": "Лодки и катамараны", "cost": 400, "notice": "1 час", "img": "photos/services/boat/main.jpg", "addition": []},
+        "details": {
+            "caption":"",
+            "describing": {
+                "main": "",
+                "topics":[],
+                "gallery":[
+                    "photos/services/boat/gallery/1.jpg",
+                    "photos/services/boat/gallery/2.jpg",
+                    "photos/services/boat/gallery/3.jpg"
+                ]
+            }
+        }
     },
     {
-        "type": "boat",
+        "type": "supboard",
         "id": 35,
-        "preview": {"title": "Лодка", "cost": 200, "notice": "1 час", "img": "", "addition": []},
-        "details": {}
+        "preview": {"title": "SUP-борды", "cost": 500, "notice": "1 час", "img": "photos/services/supboard/main.jpg", "addition": []},
+        "details": {
+            "caption":"",
+            "describing": {
+                "main": "",
+                "topics":[],
+                "gallery":[
+                    "photos/services/supboard/gallery/1.jpg",
+                    "photos/services/supboard/gallery/2.jpg"
+                ]
+            }
+        }
     },
     {
         "type": "sports",

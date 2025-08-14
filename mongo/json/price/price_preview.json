@@ -25,7 +25,8 @@
         "items": [
           {"type":"boat","title":"Лодки и катамараны", "img":"photos/main/block_preview/additional/boat.jpg"},
           {"type":"rod","title":"Удочки для рыбалки", "img":"photos/main/block_preview/additional/fishing_rod.jpg"},
-          {"type":"sports","title":"Спортивный инвентарь", "img":"photos/main/block_preview/additional/sports_equipment.jpeg"}
+          {"type":"sports","title":"Спортивный инвентарь", "img":"photos/main/block_preview/additional/sports_equipment.jpeg"},
+          {"type":"supboard","title":"SUP-борды", "img":"photos/main/block_preview/additional/supboards.jpeg"}
         ]
       }
     }
